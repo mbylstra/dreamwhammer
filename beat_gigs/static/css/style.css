@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat';
+    /*background-color: black;*/
+    /*color: white;*/
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    background-color: #F4654E;
+    padding: 10px 19px;
+    font-size: 22px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 20px;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(129, 129, 129);
+    color: white;
+    text-decoration: none;
+    line-height: 47px;
+    padding: 0px 20px;
+}
+
+.prev {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 20px solid white;
+}
+
+.next {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-left: 20px solid white;
+}
+
+#app {
+    width: 1240px;
+    margin: 0px auto;
+}
+
+.col {
+    float: left;
+    width: 400px;
+    /*width: auto;*/
+    margin-left: 20px;
+}
+
+.col:first-child {
+    margin-left: 0px;
+}
+
+.gig {
+    position: relative;
+    color: white;
+    /*width: 300px;*/
+    /*height: 333px;*/
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    float: left;
+    /*background-size: 500px;*/
+    /*background-position-y: 35%;*/
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10px 19px;
+    margin: 0px;
+    /* text-transform: uppercase; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.venue {
+    position: absolute;
+
+}
+

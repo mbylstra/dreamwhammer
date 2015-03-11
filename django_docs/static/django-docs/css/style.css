@@ -1,0 +1,29 @@
+body {
+    font-family: 'Montserrat';
+    background-color: white;
+    color: black;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+    margin-bottom: 2em;
+}
+
+th, td {
+    text-align: left;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+button {
+    height: 40px;
+    width: 40px;
+}
