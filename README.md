@@ -3,7 +3,7 @@ Easily create RESTful APIs for any website.
 
 DreamWhammer combines requests, BeautifulSoup and DjangoRestFramework to create RESTful APIs for websites that don't have them (even ones created in Dream Weaver).
 
-For example, the following is all that is required to create an api for crazysales.com.au:
+For example, the following is all that is required to create an api endpoint for crazysales.com.au:
 
 ```
 from dreamwhammer.views import DreamWhammerListView
